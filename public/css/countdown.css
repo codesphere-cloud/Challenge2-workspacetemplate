@@ -1,0 +1,68 @@
+/* Stil für den Countdown */
+.countdown {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 400px;
+    height: 75px;
+    line-height: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abovetimer {
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.container {
+    width: 300px; /* Nimmt 50% der Seitenbreite ein */
+    margin: 10px auto;
+    border: 2px solid #000; /* Border-Stil und -Farbe anpassen */
+    text-align: center;
+}
+
+.text {
+    padding: 10px; /* Innenabstand des Texts im Container anpassen */
+    font-size: 16px; /* Schriftgröße des Texts anpassen */
+    font-weight: normal;
+}
+
+/* Zentriert den gesamten Inhalt auf der Seite */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+	background-color: #000;
+}
+
+/* Stil für den Kreis mit weißem Hintergrund */
+.circle {
+    background-color: #fff;
+    border-radius: 100%;
+    max-width: 90%; /* Begrenzt die maximale Breite auf 90% des Anzeigebereichs */
+    padding: 100px; /* Innenabstand für den Inhalt innerhalb des Kreises */
+    text-align: center;
+    box-sizing: border-box; /* Berücksichtigt das Padding in der Gesamtgröße des Kreises */
+}
+
+/* Media Query für kleinere Bildschirme */
+@media (max-width: 768px) {
+    .circle {
+        background-color: #fff;
+		border-radius: 100%;
+		max-width: 100%; /* Begrenzt die maximale Breite auf 90% des Anzeigebereichs */
+		padding: 100px; /* Innenabstand für den Inhalt innerhalb des Kreises */
+		text-align: center;
+		box-sizing: border-box; /* Berücksichtigt das Padding in der Gesamtgröße des Kreises */
+    }
+}
+

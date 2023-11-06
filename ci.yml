@@ -1,0 +1,10 @@
+prepare:
+  steps:
+    - name: install dependencies
+      command: npm install
+test:
+  steps: []
+run:
+  steps:
+    - name: deploy the app
+      command: npm run start
